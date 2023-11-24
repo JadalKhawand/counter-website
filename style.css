@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body * {
+  margin: auto;
+  border: 1px solid rgb(140, 140, 140);
+}
+.counter {
+  padding: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.counter > * {
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 10px;
+}
+
+.counter .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.counter .buttons > * {
+  padding: 20px;
+  background-color: bisque;
+  font-size: 20px;
+}
+.counter * {
+  text-align: center;
+}
+#addInput {
+  background-color: bisque;
+  cursor: pointer;
+}
+.sub,
+.add {
+  user-select: none;
+  cursor: pointer;
+}
+#resetOutput {
+  background-color: bisque;
+}
